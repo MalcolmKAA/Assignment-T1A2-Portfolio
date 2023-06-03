@@ -1,0 +1,55 @@
+body{
+    
+
+}
+
+#home-border{
+    width: 7
+}
+
+.button{
+    display: inline-flex;
+    font-size: 36px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+    width:150px;
+    height:50px;
+    position: relative;
+    margin: 0 50px 50px 0;
+    justify-content: center;
+    animation: hover 3s ease-in-out infinite;
+    background-color: white;
+
+ 
+}
+#button-container{
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#profile-pic-container{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+  
+#about-button{
+    
+   
+}
+
+#blog-button{
+  
+}
+
+#contact-button{
+   
+}
