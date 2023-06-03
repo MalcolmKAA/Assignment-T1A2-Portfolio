@@ -1,0 +1,30 @@
+@keyframes hover {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translateY(0px) translateX(0vh)
+	}
+
+	25% {
+		box-shadow: 5 10px 15px 5px rgba(0,0,0,0.2);
+		transform: translateY(-.4vh) translateX()
+	}
+
+	50% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translateY(2px) translateX(0vh)
+	}
+
+    75% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translateY(.4vh) translateX(0vh)
+	}
+
+    100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translateY(0px) translateX(0vh)
+	}
+}
+
+
+
+}
