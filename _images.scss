@@ -1,0 +1,37 @@
+.floating-image{
+    width:250px;
+    height:250px;
+    border-radius: 50%;
+    display: inline-flexbox; 
+    align-items: center;
+    margin-top: 5vh;
+    border: 3px solid #232b2b;
+    animation: floating 2s ease-in-out infinite;
+
+}
+#pic-container{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+#contactme{
+    width:200x;
+    height:200px;
+    display: inline-flexbox; 
+    align-items: center;
+    margin-top: 5vh;
+    animation: floating2 2s ease-in-out infinite;
+    border: 0;
+}
+.home-links{
+    padding-top: 3vh;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    justify-content: center;
+    gap: 20px}
+
+

@@ -1,0 +1,24 @@
+p {
+    width: 60%;
+    margin-left:20vw;
+    margin-right: 20vw;
+    display: flex;
+    justify-content: space-between;
+    padding: .5em;
+    padding-top: 1.5vh;
+}
+
+.contact-content{
+    padding-top: 3vw;
+    justify-content: center;
+    text-align: center;
+}
+main {
+    min-height: 58vh;
+}
+@media only screen and (max-width:600px){ p{
+    width:90%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+ }
+ }

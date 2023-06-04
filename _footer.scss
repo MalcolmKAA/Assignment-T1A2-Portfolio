@@ -1,0 +1,35 @@
+footer{
+    width: 15%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding-top: 3vw;
+    margin-right: 42.5vw;
+    margin-left: 42.5vw;
+    padding-bottom: 3vw;
+    gap:20px
+
+
+}
+
+.footer-link{
+   width: 2.5em;
+   height: 2.5em;
+
+}
+.footer-border{
+    width: 60%;
+    border-bottom: 3px solid black;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 1.5vh;
+
+}
+
+@media only screen and (max-width:600px){ .footer-border{
+    justify-content: center;
+    width: 90%;
+    margin-left: 5vw;
+   margin-right: 5vw;
+ }
+}

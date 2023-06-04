@@ -1,0 +1,48 @@
+@keyframes floating {
+	0% {
+		box-shadow: 0 2px 5px 0px rgba(0,0,0,0.2);
+		transform: translateY(0px) translateX(0vh)
+	}
+	50% {
+		box-shadow: 0 7px 10px 0px rgba(0,0,0,0.4);
+		transform: translateY(-4px) translateX(0vh)
+	}
+    100% {
+		box-shadow: 0 2px 5px 0px rgba(0,0,0,0.2);
+		transform: translateY(0px) translateX(0vh)
+	}
+}
+	@keyframes moving-bg {
+		0%{
+			background-position:19% 0%
+		}
+		50%{
+			background-position:62% 100%
+		}
+		100%{
+			background-position:19% 0%
+		}
+	}
+	@keyframes floating2 {
+		0% {
+			transform: translateY(0px) translateX(0vh);
+		}
+		50% {
+			transform: translateY(-4px) translateX(0vh);
+		}
+		100% {
+			transform: translateY(0px) translateX(0vh);
+		}
+	}
+	@keyframes scale{ 
+		0%{
+			transform: scale(1);
+		}
+		100%{
+			transform: scale(1.1);
+		}
+	}
+
+
+
+
